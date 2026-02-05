@@ -1,0 +1,33 @@
+[general]
+name=Japan Land Survey Assistant
+qgisMinimumVersion=3.28
+description=Integrated tool for Japanese cadastral survey: MOJ XML loading, Kokudo Suuchi Info, cadastral progress visualization, parcel search, and land price overlay.
+version=1.0.0
+author=link-field
+email=saito@link-field.jp
+
+about=Japan Land Survey Assistant (日本地籍調査支援ツール) is an integrated QGIS plugin for land survey and land acquisition operations.
+    Features include:
+    - MOJ XML parcel data loading (with MOJXML Loader plugin integration)
+    - Kokudo Suuchi Info (National Land Numerical Information) download
+    - Cadastral survey progress visualization by municipality
+    - Parcel number search with map click identification
+    - Land price overlay via Real Estate Information Library API
+    - Automatic detection and integration with existing plugins (MOJXML Loader, jpdata, QuickDEM4JP)
+
+tracker=https://github.com/akitaneko1127/japan_land_survey_assistant/issues
+repository=https://github.com/akitaneko1127/japan_land_survey_assistant
+homepage=https://link-field.jp/
+
+tags=japan,cadastral,survey,parcel,land,moj,xml,kokudo,chiseki,surveying
+
+category=Vector
+icon=icon.png
+
+experimental=False
+deprecated=False
+hasProcessingProvider=yes
+server=False
+
+changelog=Version 1.0.0 (2025-01-31):
+    - Initial release
