@@ -31,3 +31,8 @@ server=False
 
 changelog=Version 1.0.0 (2025-01-31):
     - Initial release
+    - MOJ XML parcel data loading
+    - Kokudo Suuchi Info download
+    - Cadastral survey progress visualization
+    - Parcel search and map identification
+    - Land price overlay
